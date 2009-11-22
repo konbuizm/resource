@@ -1,0 +1,8 @@
+deflogin on
+autodetach on
+vbell on
+vbell_msg "   Wuff  ----  Wuff!!  "
+startup_message off
+defscrollback 1000
+escape ^zz
+caption always "%{= gk}%-Lw%{= rW}%50> %n%f* %t %{-}%+Lw%< %= %{= Gk} %H %{= rW} %l %{= Gk} %0c:%s %d/%m %{-}"
